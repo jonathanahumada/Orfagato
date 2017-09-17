@@ -1,0 +1,19 @@
+
+
+<div class='wrapper'>
+
+        
+      
+        
+      
+        <div  *ngFor="let gato of gatos"  [routerLink]="['/lafamilia', gato.Nombre]">
+           <img [src]='gato.Foto[0]'> 
+           
+           <hr>
+           {{gato.Nombre}}
+        </div>
+        
+            
+
+    
+    </div>     

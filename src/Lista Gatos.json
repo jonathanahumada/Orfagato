@@ -1,0 +1,47 @@
+[
+  {
+    "Nombre": "Xiomara",
+    "Edad": "1",
+    "Raza": "Criolla",
+    "Color": "Café",
+    "Vacunacion": "Todas",
+    "Estado": "Esperando",
+    "Foto" : ["/assets/fotos/00.jpg","/assets/fotos/05.jpg", "/assets/fotos/06.jpg", "/assets/fotos/07.jpg"]
+  },
+  {
+    "Nombre": "Deneb",
+    "Edad": "4",
+    "Raza": "Siamés",
+    "Color": "Negro",
+    "Vacunacion": "Falta",
+    "Estado": "Esperando",
+    "Foto": ["/assets/fotos/01.jpg", "/assets/fotos/02.jpg","/assets/fotos/03.jpg", "/assets/fotos/05.jpg", "/assets/fotos/06.jpg", "/assets/fotos/07.jpg"]
+  },
+  {
+    "Nombre": "Pilatos",
+    "Edad": "2",
+    "Raza": "Dragoon",
+    "Color": "Pardo",
+    "Vacunacion": "Azul",
+    "Estado": "Todas",
+    "Foto" : ["/assets/fotos/02.jpg", "/assets/fotos/05.jpg", "/assets/fotos/06.jpg", "/assets/fotos/07.jpg"]
+  },
+  {
+    "Nombre": "Ulysses",
+    "Edad": "1",
+    "Raza": "Criollo",
+    "Color": "Gris",
+    "Vacunacion": "Falta",
+    "Estado": "Esperando",
+    "Foto" : ["/assets/fotos/03.jpg", "/assets/fotos/05.jpg", "/assets/fotos/06.jpg", "/assets/fotos/07.jpg"]
+  },
+  {
+    "Nombre": "Raiku",
+    "Edad": "1",
+    "Raza": "Pokemon",
+    "Color": "Rayas blancas",
+    "Vacunacion": "Todas",
+    "Estado": "Esperando",
+    "Foto" : ["/assets/fotos/04.jpg", "/assets/fotos/05.jpg", "/assets/fotos/06.jpg", "/assets/fotos/07.jpg"]
+  }
+]

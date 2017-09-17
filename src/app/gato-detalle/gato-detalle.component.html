@@ -1,0 +1,40 @@
+
+ <div class="wrapper" *ngIf="gato">           
+    
+    
+
+    
+        <div class='col-4'>
+        <h2>{{gato.Nombre}}</h2>
+        <h1>Ficha de Adopción </h1>
+        <hr>
+        
+        <tr class='dato'><strong> Edad: </strong> {{gato.Edad}}</tr>
+        <tr class='dato'><strong>Raza:</strong> {{gato.Raza}}</tr>
+        <tr class='dato'><strong>Color:</strong> {{gato.Color}}</tr>
+        <tr class='dato'><strong> de Vacunación:</strong> {{gato.Vacunacion}}</tr>
+        <tr class='dato'><strong>Fase:</strong> {{gato.Estado}}</tr>
+
+        <h1> Historia
+        </h1>
+        <hr>
+        <p>“Ah you think darkness is your ally? You merely adopted the dark. I was born in it, molded by it.
+                I didn't see the light until I was already a man, by then it was nothing to me but blinding!”</p>
+        
+        <h1>Gustos</h1>
+        <hr>
+        <p>“Ah you think darkness is your ally? You merely adopted the dark. I was born in it, molded by it.
+            I didn't see the light until I was already a man, by then it was nothing to me but blinding!”</p>
+
+        </div>
+
+ <div class='col-8' id='visorGato'>
+     <img *ngFor= 'let fotos of gato.Foto' [src]='fotos'>
+    
+ </div>
+
+
+                
+ </div>
+
+  

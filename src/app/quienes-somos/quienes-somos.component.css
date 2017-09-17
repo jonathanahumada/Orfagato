@@ -1,0 +1,48 @@
+
+ @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        [class*="col-"] {
+            width: 100%;
+        }
+        h1{
+            display: none;
+        }
+        div div {
+            background-color:#FF8A7C;
+        }
+        div p{
+            font-size: 1.5rem !important;
+        }
+    }
+.wrapper{
+width: 75%;
+display: block;     
+margin: auto;}
+p{
+    display: inline-block;
+}
+
+div p{
+    font-family: 'lusitana';
+    text-align: left;
+    font-size: 1rem;
+    margin-top: 0px;
+}
+
+div h2 {
+font-family: 'fredericka the Great';
+text-align:  left;
+font-size: 1.5rem;
+}
+div h3 {
+
+font-family: 'leckerli One';
+text-align: left;
+font-size: 1.5rem;
+margin: 1rem ;
+}
+
+div h1 {
+    font-family: 'fredericka the Great';
+}
+img{height:100%;}

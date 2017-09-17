@@ -1,3 +1,25 @@
+
 <h1>
-  {{title}}
+  El Orfagato
 </h1>
+
+<div class='nav-container'> 
+  
+    <span>
+      <a [routerLink]="['/quienessomos']">¿Quiénes somos?</a>
+    </span>
+    <span>
+      <a [routerLink]="['/lafamilia']">La familia</a>
+    </span>
+    <span>
+      <a [routerLink]="['/contacto']">Contacto</a>
+    </span>
+    
+
+</div>
+  
+<div>
+  <router-outlet></router-outlet>
+
+<div>
+
